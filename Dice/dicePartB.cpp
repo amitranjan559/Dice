@@ -36,12 +36,15 @@ int main(){
                 newDice_A[index]=val--;
                 if(val==0)break;
             }
+            cout<<"NewDice_A: ";
             for(auto a:newDice_A){cout<<a<<" ";}cout<<endl;
 
             for(int index=0;index<=5;index++){
                 newDice_B[index]=v++;
             }
+            cout<<"NewDice_B: ";
             for(auto a:newDice_B){cout<<a<<" ";}cout<<endl;
+            cout<<'\n';
         }
         else if(sum >4){
             int val=3;
@@ -54,12 +57,15 @@ int main(){
                 if(val==0){val=1;}
                 if(!p)break;
             }
+            cout<<"NewDice_A: ";
             for(auto a:newDice_A){cout<<a<<" ";}cout<<endl;
 
             for(int index=0;index<=5;index++){
                 newDice_B[index]=v++;
             }
+            cout<<"NewDice_B: ";
             for(auto a:newDice_B){cout<<a<<" ";}cout<<endl;
+            cout<<'\n';
         }
     }
     return 0;
