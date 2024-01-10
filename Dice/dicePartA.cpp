@@ -16,7 +16,7 @@ int main(){
             cout<<"combination: "<<combination<< endl;
             cout<< "diceA: "<< diceA[index]<< " diceB: "<<diceB[j]<<endl;
             cout<<"sum: "<<sum<<endl;
-
+            cout<<'\n';
             combination++;
         }
     }
